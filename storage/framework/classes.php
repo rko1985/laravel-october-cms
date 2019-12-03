@@ -10,4 +10,13 @@
   'backend\\Controllers\\index' => 'modules\\backend\\controllers\\index.php',
   'backend\\Controllers\\auth' => 'modules\\backend\\controllers\\auth.php',
   'RainLab\\Blog\\Models\\Settings' => 'plugins\\rainlab\\blog\\models\\Settings.php',
+  'system\\Controllers\\settings' => 'modules\\system\\controllers\\settings.php',
+  'cms\\Controllers\\index' => 'modules\\cms\\controllers\\index.php',
+  'RainLab\\Blog\\Components\\Categories' => 'plugins\\rainlab\\blog\\components\\Categories.php',
+  'RainLab\\Blog\\Components\\RssFeed' => 'plugins\\rainlab\\blog\\components\\RssFeed.php',
+  'backend\\Controllers\\media' => 'modules\\backend\\controllers\\media.php',
+  'rainlab\\blog\\Controllers\\posts' => 'plugins\\rainlab\\blog\\controllers\\posts.php',
+  'RainLab\\Blog\\Models\\PostImport' => 'plugins\\rainlab\\blog\\models\\PostImport.php',
+  'RainLab\\Blog\\Models\\PostExport' => 'plugins\\rainlab\\blog\\models\\PostExport.php',
+  'RainLab\\Blog\\FormWidgets\\BlogMarkdown' => 'plugins\\rainlab\\blog\\formwidgets\\BlogMarkdown.php',
 );

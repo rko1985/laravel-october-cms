@@ -1,4 +1,4 @@
-1575319394a:1:{s:16:"site/sidebar.htm";a:6:{s:8:"fileName";s:16:"site/sidebar.htm";s:7:"content";s:1231:"[blogPosts]
+1575400156a:1:{s:16:"site/sidebar.htm";a:6:{s:8:"fileName";s:16:"site/sidebar.htm";s:7:"content";s:1469:"[blogPosts]
 postsPerPage = "5"
 categoryPage = "blog/category"
 postPage = "blog/post"
@@ -16,6 +16,14 @@ sortOrder = "published_at desc"
     <p class="site-motto">
         {{ this.theme.site_motto }}
     </p>
+</div>
+
+<div class="sidebar-segment">
+    <h2 class="segment-title">Main Menu</h2>
+    <ul class="segment-list">
+        <li><a href="{{ 'home'|page }}">Home</a></li>
+        <li><a href="{{ 'contact'|page }}">Contact</a></li>
+    </ul>
 </div>
 
 <div class="sidebar-segment">
@@ -39,7 +47,8 @@ sortOrder = "published_at desc"
         <li><a href="{{ 'blog/rss'|page }}">RSS Feed</a></li>
     </ul>
 </div>
-";s:5:"mtime";i:1575318691;s:6:"markup";s:1109:"<div class="sidebar-close visible-sm visible-xs">
+
+";s:5:"mtime";i:1575320240;s:6:"markup";s:1346:"<div class="sidebar-close visible-sm visible-xs">
     <a href="javascript:;" onclick="toggleSidebar()" class="close">&times;</a>
 </div>
 
@@ -50,6 +59,14 @@ sortOrder = "published_at desc"
     <p class="site-motto">
         {{ this.theme.site_motto }}
     </p>
+</div>
+
+<div class="sidebar-segment">
+    <h2 class="segment-title">Main Menu</h2>
+    <ul class="segment-list">
+        <li><a href="{{ 'home'|page }}">Home</a></li>
+        <li><a href="{{ 'contact'|page }}">Contact</a></li>
+    </ul>
 </div>
 
 <div class="sidebar-segment">
