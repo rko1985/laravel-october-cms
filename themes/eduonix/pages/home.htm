@@ -4,4 +4,10 @@ layout = "default"
 description = "This is the home page"
 is_hidden = 0
 ==
-<h1>Welcome</h1>
+<div class="jumbotron text-center">
+    <h1>{{ this.theme.site_name}}</h1>
+    <p>{{this.theme.site_description}}</p>
+    <p>
+        <a href="{{'about'|page}}" class="btn btn-primary">About</a>
+    </p>
+</div>

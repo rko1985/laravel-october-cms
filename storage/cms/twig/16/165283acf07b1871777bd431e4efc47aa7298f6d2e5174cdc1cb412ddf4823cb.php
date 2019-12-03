@@ -45,14 +45,49 @@ class __TwigTemplate_a70943936d8fd69807bfbeb83e03b3976d9ca1cee340f2789810e4d32b0
 
     <div class=\"collapse navbar-collapse\" id=\"navbarsExampleDefault\">
       <ul class=\"navbar-nav mr-auto\">
-        <li class=\"nav-item\">
-          <a class=\"nav-link\" href=\"#\">Home</a>
+        <li class=\"nav-item ";
+        // line 9
+        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 9), "id", [], "any", false, false, false, 9) == "home")) {
+            echo "active";
+        }
+        echo "\">
+          <a class=\"nav-link\" href=\"";
+        // line 10
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("home");
+        echo "\">Home</a>
         </li>
-        <li class=\"nav-item\">
-            <a class=\"nav-link\" href=\"#about\">About</a>
-        </li>   
-        <li class=\"nav-item\">
-            <a class=\"nav-link\" href=\"#contact\">Contact</a>
+        <li class=\"nav-item ";
+        // line 12
+        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 12), "id", [], "any", false, false, false, 12) == "about")) {
+            echo "active";
+        }
+        echo "\">
+            <a class=\"nav-link\" href=\"";
+        // line 13
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("about");
+        echo "\">About</a>
+        </li>
+        <li class=\"nav-item ";
+        // line 15
+        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 15), "id", [], "any", false, false, false, 15) == "blog")) {
+            echo "active";
+        }
+        echo "\">
+            <a class=\"nav-link\" href=\"";
+        // line 16
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("blog");
+        echo "\">Blog</a>
+        </li>          
+        <li class=\"nav-item ";
+        // line 18
+        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 18), "id", [], "any", false, false, false, 18) == "contact")) {
+            echo "active";
+        }
+        echo "\">
+            <a class=\"nav-link\" href=\"";
+        // line 19
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("contact");
+        echo "\">Contact</a>
         </li>        
       </ul>
     </div>
@@ -71,7 +106,7 @@ class __TwigTemplate_a70943936d8fd69807bfbeb83e03b3976d9ca1cee340f2789810e4d32b0
 
     public function getDebugInfo()
     {
-        return array (  40 => 2,  37 => 1,);
+        return array (  89 => 19,  83 => 18,  78 => 16,  72 => 15,  67 => 13,  61 => 12,  56 => 10,  50 => 9,  40 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -84,14 +119,17 @@ class __TwigTemplate_a70943936d8fd69807bfbeb83e03b3976d9ca1cee340f2789810e4d32b0
 
     <div class=\"collapse navbar-collapse\" id=\"navbarsExampleDefault\">
       <ul class=\"navbar-nav mr-auto\">
-        <li class=\"nav-item\">
-          <a class=\"nav-link\" href=\"#\">Home</a>
+        <li class=\"nav-item {% if this.page.id == 'home' %}active{% endif %}\">
+          <a class=\"nav-link\" href=\"{{ 'home'|page }}\">Home</a>
         </li>
-        <li class=\"nav-item\">
-            <a class=\"nav-link\" href=\"#about\">About</a>
-        </li>   
-        <li class=\"nav-item\">
-            <a class=\"nav-link\" href=\"#contact\">Contact</a>
+        <li class=\"nav-item {% if this.page.id == 'about' %}active{% endif %}\">
+            <a class=\"nav-link\" href=\"{{ 'about'|page }}\">About</a>
+        </li>
+        <li class=\"nav-item {% if this.page.id == 'blog' %}active{% endif %}\">
+            <a class=\"nav-link\" href=\"{{ 'blog'|page }}\">Blog</a>
+        </li>          
+        <li class=\"nav-item {% if this.page.id == 'contact' %}active{% endif %}\">
+            <a class=\"nav-link\" href=\"{{ 'contact'|page }}\">Contact</a>
         </li>        
       </ul>
     </div>
