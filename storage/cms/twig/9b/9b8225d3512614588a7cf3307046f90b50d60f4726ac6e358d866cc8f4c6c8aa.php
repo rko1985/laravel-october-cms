@@ -36,7 +36,12 @@ class __TwigTemplate_abfc18ed3eb7a98db94378742886ecd23a7e8899b7b0c074ec83ad0aa6a
         // line 1
         echo "<h1>About</h1>
 <p>This is the about page</p>
-<hr>";
+<hr>
+";
+        // line 4
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("resourcesLinks"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
     }
 
     public function getTemplateName()
@@ -44,15 +49,21 @@ class __TwigTemplate_abfc18ed3eb7a98db94378742886ecd23a7e8899b7b0c074ec83ad0aa6a
         return "C:\\xampp\\htdocs\\october-cms/themes/eduonix/pages/about.htm";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  37 => 1,);
+        return array (  42 => 4,  37 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<h1>About</h1>
 <p>This is the about page</p>
-<hr>", "C:\\xampp\\htdocs\\october-cms/themes/eduonix/pages/about.htm", "");
+<hr>
+{% component 'resourcesLinks' %}", "C:\\xampp\\htdocs\\october-cms/themes/eduonix/pages/about.htm", "");
     }
 }

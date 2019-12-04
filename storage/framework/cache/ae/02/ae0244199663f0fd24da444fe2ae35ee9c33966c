@@ -1,4 +1,4 @@
-1575413286a:1:{s:15:"site/header.htm";a:5:{s:8:"fileName";s:15:"site/header.htm";s:7:"content";s:1213:"<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+1575478772a:1:{s:15:"site/header.htm";a:5:{s:8:"fileName";s:15:"site/header.htm";s:7:"content";s:1213:"<nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <a class="navbar-brand" href="#">{{this.theme.site_name}}</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

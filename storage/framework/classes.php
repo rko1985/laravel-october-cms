@@ -20,4 +20,6 @@
   'RainLab\\Blog\\Models\\PostExport' => 'plugins\\rainlab\\blog\\models\\PostExport.php',
   'RainLab\\Blog\\FormWidgets\\BlogMarkdown' => 'plugins\\rainlab\\blog\\formwidgets\\BlogMarkdown.php',
   'cms\\Controllers\\themes' => 'modules\\cms\\controllers\\themes.php',
+  'eduonix\\resources\\Plugin' => 'plugins\\eduonix\\resources\\Plugin.php',
+  'Eduonix\\Resources\\Components\\Links' => 'plugins\\eduonix\\resources\\components\\Links.php',
 );
